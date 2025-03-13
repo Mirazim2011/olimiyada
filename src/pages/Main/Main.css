@@ -4,6 +4,13 @@
   width: 350px;
   border-radius: 8px;
 }
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 .restaurant-list {
   list-style-type: none;
   display: flex;
@@ -15,12 +22,12 @@
 .restaurant-name {
   font-size: 25px;
   font-weight: bold;
-  color: var(--color-input);
+  color: #000;
   margin-bottom: 16px;
 }
 .restaurant-description {
   font-size: 18px;
-  color: var(--table-color);
+  color: #333;
   line-height: 1.6;
   margin-bottom: 24px;
 }

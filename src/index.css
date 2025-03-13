@@ -6,26 +6,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root {
-  --bg-sidebar: dodgerblue;
-  --bg-color: white;
-  --bg-color1: white;
-  --color: black;
-  --table-bg-color: white;
-  --table-color: #333;
-  --bg-color-input: white;
-  --color-input: black;
-}
-.dark-mode {
-  --bg-sidebar: greenyellow;
-  --bg-color: #333;
-  --bg-color1: #6a6666;
-  --color: white;
-  --table-bg-color: #000;
-  --table-color: white;
-  --bg-color-input: #333;
-  --color-input: white;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -40,6 +20,4 @@
 }
 body {
   font-family: sans-serif;
-  background-color: var(--bg-color);
-  color: var(--color);
 }

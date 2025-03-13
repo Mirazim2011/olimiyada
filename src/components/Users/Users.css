@@ -1,0 +1,26 @@
+.restaurant-card {
+  border: 3px solid purple;
+  padding: 24px;
+  width: 350px;
+  border-radius: 8px;
+}
+.restaurant-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.restaurant-name {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--color-input);
+  margin-bottom: 16px;
+}
+.restaurant-description {
+  font-size: 18px;
+  color: var(--table-color);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}

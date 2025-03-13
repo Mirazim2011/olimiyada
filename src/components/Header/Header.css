@@ -1,0 +1,51 @@
+.main-header__inner {
+  width: 100%;
+  justify-content: center;
+}
+.main-header__inner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+}
+.title-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-input);
+}
+.mode-label {
+  display: inline-flex;
+  width: 70px;
+  height: 30px;
+  background-color: lightblue;
+  border-radius: 15px;
+  padding: 2.5px;
+  text-align: start;
+  transition: all 0.8s ease;
+}
+.mode-control {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-image: url("../../assets/sun.png");
+  background-size: cover;
+  transition: all 0.9s ease;
+}
+.select-option {
+  color: var(--color-input);
+}
+.select {
+  background-color: var(--table-bg-color);
+}
+.mode-input:checked + .mode-label > span {
+  transition: all 0.9s ease;
+  transform: translateX(40px) rotate(270deg);
+  background-image: url("../../assets/half-moon.png");
+  background-size: cover;
+  background-position: center;
+}
+.mode-input:checked + .mode-label {
+  background-color: rgba(113, 113, 113, 0.77);
+}
